@@ -1,6 +1,7 @@
 
 
 const connection = require('../database/connection');
+const crypto = require('crypto');
 
 const OngController = {
     async index(req, res){
